@@ -17,7 +17,6 @@ Source0:	http://sparky.homelinux.org/snaps/enli/e_modules/%{_module_name}-%{_sna
 URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	edje
 BuildRequires:	enlightenmentDR17-devel
 BuildRequires:	libtool
 BuildRequires:	sed >= 4.0
