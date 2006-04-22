@@ -1,7 +1,3 @@
-#
-# TODO:
-# - add pl
-#
 %define		_module_name	rain
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
@@ -25,6 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Some rain and clouds on desktop.
+
+%description -l pl
+Trochê deszczu i chmur na pulpicie.
 
 %prep
 %setup -q -n %{_module_name}
