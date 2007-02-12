@@ -1,7 +1,7 @@
 %define		_module_name	rain
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl):	Modu³ Enlightenmenta DR17: %{_module_name}
+Summary(pl.UTF-8):   ModuÅ‚ Enlightenmenta DR17: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.3
 Release:	0.%{_snap}.1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Some rain and clouds on desktop.
 
-%description -l pl
-Trochê deszczu i chmur na pulpicie.
+%description -l pl.UTF-8
+TrochÄ™ deszczu i chmur na pulpicie.
 
 %prep
 %setup -q -n %{_module_name}
