@@ -1,7 +1,7 @@
 %define		_module_name	rain
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: %{_module_name}
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.3
 Release:	0.%{_snap}.1
