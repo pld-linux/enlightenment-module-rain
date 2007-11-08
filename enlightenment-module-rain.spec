@@ -13,10 +13,10 @@ Source0:	http://sparky.homelinux.org/snaps/enli/e_modules/%{_module_name}-%{_sna
 URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	enlightenmentDR17-devel
+BuildRequires:	enlightenment-devel
 BuildRequires:	libtool
 BuildRequires:	sed >= 4.0
-Requires:	enlightenmentDR17
+Requires:	enlightenment
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
